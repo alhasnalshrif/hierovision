@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+mobile/build
+mobile/android/.gradle
+mobile/.idea
+mobile/.vscode
