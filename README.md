@@ -46,7 +46,7 @@ chmod +x start-dev.sh
 
 ### Option 2: Manual Setup
 
-**1. Setup Backend (Flask API)**
+### 1. Setup Backend (Flask API)
 
 ```bash
 
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-**2. Setup Frontend (React/Vite)**
+### 2. Setup Frontend (React/Vite)
 
 ```bash
 # In a new terminal, from project root
@@ -93,7 +93,7 @@ npm run dev
 
 ## 📁 Project Structure
 
-```
+```plaintext
 hierovision-website-main/
 ├── backend/                 # Flask API backend
 │   ├── app/
@@ -118,14 +118,14 @@ hierovision-website-main/
 
 ### Environment Variables
 
-**Frontend (.env)**
+### Frontend (.env)
 
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
 VITE_APP_NAME=HieroVision
 ```
 
-**Backend (config.py)**
+### Backend (config.py)
 
 - Database configuration
 - JWT secret keys
@@ -223,7 +223,7 @@ For support and questions:
 
 ---
 
-**Made with ❤️ for Ancient Egyptian History Enthusiasts**
+### Made with ❤️ for Ancient Egyptian History Enthusiasts
 
 - Vite
 - TypeScript
