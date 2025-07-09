@@ -1,0 +1,171 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HieroVision Design System - All colors explicitly defined */
+
+@layer base {
+  :root {
+    /* Egyptian Color Palette */
+    --egyptian-gold: #B98E57;
+    --egyptian-gold-light: #C69968;
+    --egyptian-gold-dark: #A67D46;
+    --egyptian-brown: #5E4022;
+    --egyptian-brown-light: #6F4A33;
+    --egyptian-brown-dark: #4D3318;
+    --egyptian-sand: #F5E9D3;
+    --egyptian-sand-light: #FAF0E4;
+    --egyptian-sand-dark: #E3D2B7;
+    --egyptian-papyrus: #F5E9D3;
+    --egyptian-stone: #E3D2B7;
+    
+    /* Shadcn UI Colors - Explicit hex values */
+    --background: #FFFFFF; /* Pure white */
+    --foreground: #222222; /* Dark gray */
+
+    --card: #FFFFFF; /* Pure white */
+    --card-foreground: #222222; /* Dark gray */
+
+    --popover: #FFFFFF; /* Pure white */
+    --popover-foreground: #222222; /* Dark gray */
+
+    --primary: #222222; /* Dark gray */
+    --primary-foreground: #FFFFFF; /* Pure white */
+
+    --secondary: #F5F5F5; /* Light gray */
+    --secondary-foreground: #222222; /* Dark gray */
+
+    --muted: #F5F5F5; /* Light gray */
+    --muted-foreground: #6B727E; /* Medium gray */
+
+    --accent: #F5F5F5; /* Light gray */
+    --accent-foreground: #222222; /* Dark gray */
+
+    --destructive: #EF4444; /* Red */
+    --destructive-foreground: #FFFFFF; /* Pure white */
+
+    --border: #E5E7EB; /* Light border gray */
+    --input: #E5E7EB; /* Light border gray */
+    --ring: #222222; /* Dark gray */
+
+    --radius: 0.5rem;
+
+    --sidebar-background: #F9FAFB; /* Very light gray */
+    --sidebar-foreground: #6B727E; /* Medium gray */
+    --sidebar-primary: #0F172A; /* Dark slate */
+    --sidebar-primary-foreground: #F8FAFC; /* Very light gray */
+    --sidebar-accent: #F1F5F9; /* Light slate */
+    --sidebar-accent-foreground: #0F172A; /* Dark slate */
+    --sidebar-border: #E2E8F0; /* Light border */
+    --sidebar-ring: #3B82F6; /* Blue */
+  }
+
+  .dark {
+    --background: #0F0F0F; /* Almost black */
+    --foreground: #FAFAFA; /* Almost white */
+
+    --card: #0F0F0F; /* Almost black */
+    --card-foreground: #FAFAFA; /* Almost white */
+
+    --popover: #0F0F0F; /* Almost black */
+    --popover-foreground: #FAFAFA; /* Almost white */
+
+    --primary: #FAFAFA; /* Almost white */
+    --primary-foreground: #0F0F0F; /* Almost black */
+
+    --secondary: #27272A; /* Dark gray */
+    --secondary-foreground: #FAFAFA; /* Almost white */
+
+    --muted: #27272A; /* Dark gray */
+    --muted-foreground: #A1A1AA; /* Light gray */
+
+    --accent: #27272A; /* Dark gray */
+    --accent-foreground: #FAFAFA; /* Almost white */
+
+    --destructive: #7F1D1D; /* Dark red */
+    --destructive-foreground: #FAFAFA; /* Almost white */
+
+    --border: #27272A; /* Dark gray */
+    --input: #27272A; /* Dark gray */
+    --ring: #D4D4D8; /* Light gray */
+    
+    --sidebar-background: #0F172A; /* Dark slate */
+    --sidebar-foreground: #F1F5F9; /* Light slate */
+    --sidebar-primary: #6366F1; /* Blue */
+    --sidebar-primary-foreground: #FFFFFF; /* Pure white */
+    --sidebar-accent: #1E293B; /* Medium slate */
+    --sidebar-accent-foreground: #F1F5F9; /* Light slate */
+    --sidebar-border: #1E293B; /* Medium slate */
+    --sidebar-ring: #3B82F6; /* Blue */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom Egyptian utility classes */
+@layer utilities {
+  .bg-egyptian-gold {
+    background-color: #B98E57;
+  }
+  
+  .bg-egyptian-gold-light {
+    background-color: #C69968;
+  }
+  
+  .bg-egyptian-gold-dark {
+    background-color: #A67D46;
+  }
+  
+  .bg-egyptian-brown {
+    background-color: #5E4022;
+  }
+  
+  .bg-egyptian-brown-light {
+    background-color: #6F4A33;
+  }
+  
+  .bg-egyptian-brown-dark {
+    background-color: #4D3318;
+  }
+  
+  .bg-egyptian-sand {
+    background-color: #F5E9D3;
+  }
+  
+  .bg-egyptian-sand-light {
+    background-color: #FAF0E4;
+  }
+  
+  .bg-egyptian-sand-dark {
+    background-color: #E3D2B7;
+  }
+  
+  .text-egyptian-gold {
+    color: #B98E57;
+  }
+  
+  .text-egyptian-brown {
+    color: #5E4022;
+  }
+  
+  .text-egyptian-sand {
+    color: #F5E9D3;
+  }
+  
+  .border-egyptian-gold {
+    border-color: #B98E57;
+  }
+  
+  .border-egyptian-brown {
+    border-color: #5E4022;
+  }
+}
